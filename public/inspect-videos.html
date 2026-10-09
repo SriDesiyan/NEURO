@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeuroSymbioMine — Video Asset Verification & Inspector</title>
+  <style>
+    body {
+      background: #080E14;
+      color: #E2E8F0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      padding: 24px;
+      margin: 0;
+    }
+    h1 {
+      color: #19C8D8;
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #94A3B8;
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: #0D1A27;
+      border: 1px solid #243647;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    video {
+      width: 100%;
+      border-radius: 6px;
+      background: #000;
+      display: block;
+      margin-bottom: 12px;
+    }
+    .meta {
+      font-family: monospace;
+      font-size: 13px;
+      color: #38BDF8;
+      margin-bottom: 8px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: bold;
+      background: rgba(25, 200, 216, 0.15);
+      color: #19C8D8;
+      border: 1px solid rgba(25, 200, 216, 0.4);
+      margin-right: 8px;
+    }
+    .desc {
+      font-size: 13px;
+      color: #CBD5E1;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>NEUROSYMBIOMINE · VIDEO ASSET VERIFICATION</h1>
+  <p>CIL-IMiN Hackathon 2026 &bull; Project ID: VMDIGITW-2026-0015 &bull; 4 Video Clips Integrated</p>
+  
+  <div class="grid">
+    <div class="card">
+      <video controls preload="metadata" poster="/videos/posters/video-project.mp4.jpg">
+        <source src="/videos/video-project.mp4" type="video/mp4">
+      </video>
+      <div class="meta">
+        <span class="badge">CLIP 1</span>
+        <strong>Multi-Zone Open-Pit Operational Simulation</strong> &bull; 2520 &times; 1080 (21:9) &bull; 01:48
+      </div>
+      <div class="desc">
+        Full multi-zone (Zones 1-11) open-pit mining simulation with excavator loading, CAT haul truck transit, primary crushing hub, and stockpiling.
+      </div>
+    </div>
+
+    <div class="card">
+      <video controls preload="metadata" poster="/videos/posters/video-project-1.mp4.jpg">
+        <source src="/videos/video-project-1.mp4" type="video/mp4">
+      </video>
+      <div class="meta">
+        <span class="badge">CLIP 2</span>
+        <strong>Primary Crushing Hub & Continuous Overland Conveyor</strong> &bull; 2520 &times; 1080 (21:9) &bull; 00:28
+      </div>
+      <div class="desc">
+        Primary gyratory crusher receiving ore from loaded haulage units and continuous steel-cord conveyor belt transferring material from pit floor.
+      </div>
+    </div>
+
+    <div class="card">
+      <video controls preload="metadata" poster="/videos/posters/video-project-2.mp4.jpg">
+        <source src="/videos/video-project-2.mp4" type="video/mp4">
+      </video>
+      <div class="meta">
+        <span class="badge">CLIP 3</span>
+        <strong>Multi-Level Terraced Bench Haulage & Pit Elevation</strong> &bull; 2520 &times; 1080 (21:9) &bull; 00:45
+      </div>
+      <div class="desc">
+        Comprehensive aerial camera trajectory showcasing the 6-tier terraced excavation benches, highwall switchback roads, and multi-vehicle traffic synchronization.
+      </div>
+    </div>
+
+    <div class="card">
+      <video controls preload="metadata" poster="/videos/posters/screen-recording-2026-10-09.mp4.jpg">
+        <source src="/videos/screen-recording-2026-10-09.mp4" type="video/mp4">
+      </video>
+      <div class="meta">
+        <span class="badge">CLIP 4</span>
+        <strong>Longwall Shearer Spatial Twin & Real-Time Telemetry HUD</strong> &bull; 1916 &times; 1078 &bull; 01:34
+      </div>
+      <div class="desc">
+        Engineering 3D Longwall Shearer model, hydraulic roof supports, live ventilation gas monitoring HUD (CH4, airflow, pressure), and what-if hazard simulation.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
